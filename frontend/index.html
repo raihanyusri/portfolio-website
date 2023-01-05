@@ -9,11 +9,17 @@
 </head>
 <body>
     <nav class="nav">
-        <a href="/" class="nav__link" data-link>Dashboard</a>
-        <a href="/posts" class="nav__link" data-link>Posts</a>
-        <a href="/settings" class="nav__link" data-link>Settings</a>
+        <a href="/" class="logo" data-link>Raihan Y.</a>
+        <div class="nav__link_container">
+            <a href="/" class="nav__link" data-link>About</a>
+            <a href="/experience" class="nav__link" data-link>Experience</a>
+            <a href="/projects" class="nav__link" data-link>Projects</a>
+            <a href="/contact" class="nav__link" data-link>Contact</a>
+        </div>
     </nav>
-    <div id="app"></div>
+    <div id="app" onload="document.body.style.opacity='1'"></div>
     <script type="module" src="/static/js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
-import Dashboard from "./views/Dashboard.js";
-import Posts from "./views/Posts.js";
-import Settings from "./views/Settings.js";
+import About from "./views/About.js";
+import Contact from "./views/Contact.js";
+import Experience from "./views/Experience.js";
+import Projects from "./views/Projects.js";
 
 // Using History API
 const navigateTo = url => {
@@ -10,9 +11,10 @@ const navigateTo = url => {
 
 const router = async () => {
     const routes = [
-        { path: "/", view: Dashboard },
-        { path: "/posts", view: Posts},
-        { path: "/settings", view: Settings}
+        { path: "/", view: About },
+        { path: "/experience", view: Experience},
+        { path: "/projects", view: Projects},
+        { path: "/contact", view: Contact}
     ];
 
     const potentialMatches = routes.map(route => {
