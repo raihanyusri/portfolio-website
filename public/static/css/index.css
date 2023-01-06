@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0 0 0 var(--nav-width);
   font-family: "Avenir Next";
