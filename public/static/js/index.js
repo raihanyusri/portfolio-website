@@ -201,7 +201,7 @@ class Projects extends AbstractView {
             <div class="all_proj">
             <div class="box">
                 <a href="https://github.com/raihanyusri/recipe-searcher" target="_blank"> 
-                    <img class="proj_img" src="/static/img/cookwhat.png" />
+                    <img class="proj_img" src="/static/img/cookwhat2.jpg" />
                 </a></br>
                 <span class="experience_company">CookWhat?</span></br>
                 <span class="proj_desc">A web application for inspiring cooks to search for recipes and add them to favourites for future reference, 
