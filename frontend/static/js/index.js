@@ -1,7 +1,7 @@
-import About from "./views/About.js";
-import Contact from "./views/Contact.js";
-import Experience from "./views/Experience.js";
-import Projects from "./views/Projects.js";
+import About from "../views/About.js";
+import Contact from "../views/Contact.js";
+import Experience from "../views/Experience.js";
+import Projects from "../views/Projects.js";
 
 // Using History API
 const navigateTo = url => {
