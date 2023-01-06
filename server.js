@@ -11,3 +11,4 @@ app.get("/*", (req, resp) => {
 });
 
 app.listen(process.env.PORT || 9999, () => console.log("Server running!"));
+module.exports = app
