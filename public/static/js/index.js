@@ -1,4 +1,4 @@
-import About from "./About.js";
+//import About from "./About.js";
 // import Contact from "./Contact.js";
 // import Experience from "./Experience.js";
 // import Projects from "./Projects.js";
