@@ -10,6 +10,22 @@
         {
             "src": "/(.*)",
           "dest": "public/static/js/index.js"
+        },
+        {
+            "src": "/",
+          "dest": "public/static/js/About.js"
+        },
+        {
+            "src": "/Experience",
+          "dest": "public/static/js/Experience.js"
+        },
+        {
+            "src": "/Projects",
+          "dest": "public/static/js/Projects.js"
+        },
+        {
+            "src": "/Contact",
+          "dest": "public/static/js/Contact.js"
         }
     ]
   }
