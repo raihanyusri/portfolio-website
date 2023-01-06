@@ -15,7 +15,7 @@ export default class extends AbstractView {
                     <h3 style="color:#838383;">Software Engineer.</h3>
                 </div>
                 <div>
-                    <img id="portrait" src="https://drive.google.com/uc?export=view&id=1_czlBoVy4J27Hr8Gpnu0FN5MuzDq9EJM" alt="portrait" height="385" width="360" style="border-radius:100%; vertical-align: middle; object-fit: contain;">
+                    <img id="portrait" src="/static/img/swiss_portrait.jpg" alt="portrait" height="385" width="360" style="border-radius:100%; vertical-align: middle; object-fit: contain;">
                 </div>
             </div>
             </br>
