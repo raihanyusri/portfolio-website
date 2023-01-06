@@ -204,7 +204,7 @@ class Projects extends AbstractView {
                     <img class="proj_img" src="/static/img/cookwhat2.jpg" />
                 </a></br>
                 <span class="experience_company">CookWhat?</span></br>
-                <span class="proj_desc">A web application for inspiring cooks to search for recipes and add them to favourites for future reference, 
+                <span class="proj_desc">A web application for aspiring cooks to search for recipes and add them to favourites for future reference, 
                 if they are logged in.</span></br></br>
                 <span class="proj_stack">Tech stack:</span></br>
                 <img class="tech_stack" src= "/static/img/react.png" title="React"/>
