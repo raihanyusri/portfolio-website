@@ -1,7 +1,7 @@
 import About from "./About.js";
-import Contact from "./Contact.js";
-import Experience from "./Experience.js";
-import Projects from "./Projects.js";
+// import Contact from "./Contact.js";
+// import Experience from "./Experience.js";
+// import Projects from "./Projects.js";
 
 class AbstractView2 {
     constructor() {
@@ -52,9 +52,9 @@ const navigateTo = url => {
 const router = async () => {
     const routes = [
         { path: "/", view: About2 },
-        { path: "/experience", view: Experience},
-        { path: "/projects", view: Projects},
-        { path: "/contact", view: Contact}
+        // { path: "/experience", view: Experience},
+        // { path: "/projects", view: Projects},
+        // { path: "/contact", view: Contact}
     ];
 
     const potentialMatches = routes.map(route => {
