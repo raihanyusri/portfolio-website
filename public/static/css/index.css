@@ -6,7 +6,7 @@ body {
 body {
   margin: 0 0 0 var(--nav-width);
   font-family: "Avenir Next";
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .nav {
@@ -142,7 +142,7 @@ p {
   animation: fadeInAnimation ease 0.5s;
 }
 .experience:hover {
-  transform: scale(1.02);
+  transform: scale(1.005);
 }
 
 .experience_img {
@@ -156,7 +156,7 @@ p {
 }
 
 .experience_company {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 650;
 }
 
@@ -176,11 +176,12 @@ p {
 }
 
 .experience_role {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .experience_desc {
   font-size: 20px;
+  margin-right: 15%;
 }
 
 .social {
@@ -288,10 +289,15 @@ p {
 
   .experience_desc {
     width: 90%;
+    margin-right: 0;
   }
 
   .experience_role {
-    width: 90;
+    width: 90%;
+  }
+
+  .experience_img {
+    margin-left: 1em;
   }
 
   .hamburger {

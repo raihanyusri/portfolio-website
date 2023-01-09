@@ -87,13 +87,11 @@ class About extends AbstractView {
         return `
         <h1>About</h1>
             <div id="row">
-                <div id="hello_text" style="text-align:justify;display:inline-block;">
+                <div id="hello_text" style="display:inline-block;">
                     <span id="hi">Hi, I'm <span style="color:#0a00bf;">Raihan!</span></span>
                     <h3 style="color:#838383;">Software Engineer.</h3>
                 </div>
-                <div>
-                    <img id="portrait" src="/static/img/swiss_portrait.jpg" alt="portrait" height="385" width="360" style="border-radius:100%; vertical-align: middle; object-fit: contain;">
-                </div>
+                <img id="portrait" src="/static/img/swiss_portrait.jpg" alt="portrait" height="385" width="360" style="border-radius:100%; vertical-align: middle; object-fit: contain;">
             </div>
             </br>
             <p>Currently a 3rd Year Information Systems student studying in the National University of Singapore (NUS), with primary focus on full-stack development.
@@ -122,10 +120,9 @@ class Experience extends AbstractView {
                 <span class="experience_company">Ryde Technologies,</span>
                 <span class="experience_role">Software Engineer Intern</span></br>
                 <span class="experience_time">Jan 2023 - Present</span>
-                <p class="experience_desc">• Full-stack software engineer, working on improving the Ryde experience for users. More details coming soon!</p>
+                <p class="experience_desc">More details coming soon!</p>
             </div>
         </div>
-        </br>
         </br>
         <div class="experience" style="display:flex">
             <img class="experience_img" src="/static/img/lhub.png" alt="lhub"/>
@@ -133,14 +130,13 @@ class Experience extends AbstractView {
                 <span class="experience_company">NTUC LearningHub,</span>
                 <span class="experience_role">Software Developer Intern</span></br>
                 <span class="experience_time">May 2022 - Jul 2022</span>
-                <p class="experience_desc">• Designed and developed RESTful APIs in MuleSoft (Anypoint Studio & Platform) for integration with SkillsFutureSG, processing ~2,000 requests daily <br>
-                • Utilized SQL to manage data of over 90,000 trainees, while administering the company’s MSSQL database<br>
-                • Supported the development of virtualized APIs by creating sample API request/response messages<br>
-                • Documented business requirements and ensured alignment with their API implementations
+                <p class="experience_desc">
+                I was primarily involved in developing RESTful APIs for integration of the company's course runs, enrolments, attendance and assessments with SkillsFutureSG 
+                (processing ~2,000 requests daily). I was responsible for designing the APIs and migrating the existing code from Java to MuleSoft.
+                You can view my testimonial <a href="https://drive.google.com/file/d/1gqs9pwNAoFHQH_TY6vlgiTjPuHKS8OlY/view?usp=sharing" target="_blank">here</a>.
                 </p>
             </div>
         </div>
-        </br>
         </br>
         <div class="experience" style="display:flex">
             <img class="experience_img" src="/static/img/sncf.jpeg" alt="sncf"/>
@@ -148,9 +144,9 @@ class Experience extends AbstractView {
                 <span class="experience_company">Singapore National Co-operative Federation,</span>
                 <span class="experience_role">IT Intern</span></br>
                 <span class="experience_time">May 2021 - Jul 2021</span>
-                <p class="experience_desc">• Automated sending of weekly deliverables using Microsoft Power Automate, an initiative to reduce manual work<br>
-                • Authored a manual for IT project implementation, to be referenced by >70 of the company’s affiliates<br>
-                • Performed evaluation and assisted in the eventual selection of IT vendors for the company
+                <p class="experience_desc">
+                I managed to put together a manual for IT project implementation, which is now referenced by >70 of the company's affiliates. 
+                I also self-initiated a project to automate sending weekly deliverables using Microsoft Power Automate.
                 </p>
             </div>
         </div>
@@ -175,7 +171,7 @@ class Projects extends AbstractView {
                 </a></br>
                 <span class="experience_company">Personal Portfolio Website</span></br>
                 <span class="proj_desc">The website that you are on right now! Instead of using state of the art technologies like React, I wanted to 
-                greater appreciate the language of the web - and built this website with vanilla JavaScript, HTML and CSS.</span></br></br>
+                greater appreciate the languages of the web - so I built this website with vanilla JavaScript, HTML and CSS.</span></br></br>
                 <span class="proj_stack">Tech stack:</span></br>
                 <img class="tech_stack" src= "/static/img/js.png" title="JavaScript"/>
                 <img class="tech_stack" src= "/static/img/html.png" title="HTML"/>
